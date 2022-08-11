@@ -2,6 +2,13 @@ name: 02-2. Dependencies
 
 on:
   workflow_dispatch:
+    build:
+      runs-on: ubuntu-latest  
+      strategy:
+        matrix:
+          configuration: [debug, release]
+      steps:
+      - run: echo "This job builds the cofiguration ${{ matrix.configuration }}."
   # push:
   #   branches:
   #     - main
