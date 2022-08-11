@@ -1,5 +1,6 @@
 # gh-abcs-actions
 > The GitHub ABCs actions training with workflow templates, examples, hands-on labs and additional learning resources.
+> Name: DeAndre Sellers
 
 ## Examples & Hands-on Labs
 
